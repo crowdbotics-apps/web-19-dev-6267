@@ -8,8 +8,6 @@ from django.db import models
 
 class CustomText(models.Model):
     title = models.CharField(max_length=150,)
-    jhglkhgljg = models.BigIntegerField(null=True, blank=True,)
-    fgwsrg = models.TextField(null=True, blank=True,)
 
     def __str__(self):
         return self.title
@@ -25,6 +23,8 @@ class CustomText(models.Model):
 
 class HomePage(models.Model):
     body = models.TextField()
+    nbvhbv = models.TimeField(null=True, blank=True,)
+    sdcasc = models.BigIntegerField(null=True, blank=True,)
 
     @property
     def api(self):
