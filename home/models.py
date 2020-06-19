@@ -8,7 +8,7 @@ from django.db import models
 
 class CustomText(models.Model):
     title = models.CharField(max_length=150,)
-    sdfwafe = models.BigIntegerField(null=True, blank=True,)
+    sfdwaf = models.TextField(null=True, blank=True,)
 
     def __str__(self):
         return self.title
